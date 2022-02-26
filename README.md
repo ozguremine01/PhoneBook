@@ -2,8 +2,7 @@
 
 ## Telefon Rehberi Uygulaması
 
-
-Yeni bir console uygulaması açarak telefon rehberi uygulaması yazınız. Uygulamada olması gereken özellikler aşağıdaki gibidir.
+Patika.dev'de bulunan .NETCore patikasında ki ödevlerden biri
 --------------------------------------------------
 
  * Telefon Numarası Kaydet
