@@ -1,139 +1,64 @@
 # PhoneBook
 
-Telefon Rehberi Uygulaması
-PROJE-1 : Console Telefon Rehberi Uygulaması
+## Telefon Rehberi Uygulaması
 
 
 Yeni bir console uygulaması açarak telefon rehberi uygulaması yazınız. Uygulamada olması gereken özellikler aşağıdaki gibidir.
+--------------------------------------------------
 
-
-
-Telefon Numarası Kaydet
-Telefon Numarası Sil
-Telefon Numarası Güncelle
-Rehber Listeleme (A-Z, Z-A seçimli)
-Rehberde Arama
+ * Telefon Numarası Kaydet
+ * Telefon Numarası Sil
+ * Telefon Numarası Güncelle
+ * Rehber Listeleme (A-Z, Z-A seçimli)
+ * Rehberde Arama
 
 
 Açıklama:
 
 
 
-Başlangıç olarak 5 kişinin numarasını varsayılan olarak ekleyiniz.
+Başlangıç olarak 5 kişinin numarasını varsayılan olarak eklendi.
 
 
 Uygulama ilk başladığında kullanıcıya yapmak istediği işlem seçtirilir.
 
-
-  Lütfen yapmak istediğiniz işlemi seçiniz :) 
-  *******************************************
-  (1) Yeni Numara Kaydetmek
-  (2) Varolan Numarayı Silmek
-  (3) Varolan Numarayı Güncelleme
-  (4) Rehberi Listelemek
-  (5) Rehberde Arama Yapmak﻿
+![image](https://user-images.githubusercontent.com/94612715/155847854-fd7e94be-97a8-4151-8d2e-c716cf101856.png)
 
 
 (1) Yeni Numara Kaydetmek
 
 
- Lütfen isim giriniz             : 
- Lütfen soyisim giriniz          :
- Lütfen telefon numarası giriniz :
+![image](https://user-images.githubusercontent.com/94612715/155848037-f2b730c4-c76b-47c9-859e-47873cae686f.png)
+
+
 (2) Var olan Numarayı Silmek
 
-
-İsim ve soy isime göre arama yapılması yeterlidir.
-
-
-
-  Lütfen numarasını silmek istediğiniz kişinin adını ya da soyadını giriniz:
+![image](https://user-images.githubusercontent.com/94612715/155848067-060d0b6b-4e20-46e0-b35d-07d9e7549002.png)
 
 
 Kullanıcıdan alınan girdi doğrultusunda rehberde bir kişi bulunamazsa:
 
-
-
-  Aradığınız krtiterlere uygun veri rehberde bulunamadı. Lütfen bir seçim yapınız.
-  * Silmeyi sonlandırmak için : (1)
-  * Yeniden denemek için      : (2)
-
+![image](https://user-images.githubusercontent.com/94612715/155848111-75fa9443-37c7-4674-bb85-8e6030d08d8d.png)
 
 Rehberde uygun veri bulunursa:
 
-
-
-  {} isimli kişi rehberden silinmek üzere, onaylıyor musunuz ?(y/n)
-Not: Rehber uygun kriterlere uygun birden fazla kişi bulunursa ilk bulunan silinmeli.
-
+![image](https://user-images.githubusercontent.com/94612715/155848162-e48cf2bf-f439-44bf-8b6b-3d3cbbf4ab01.png)
 
 (3) Varolan Numarayı Güncelleme
 
-
- Lütfen numarasını silmek istediğiniz kişinin adını ya da soyadını giriniz:
-
+ ![image](https://user-images.githubusercontent.com/94612715/155848173-fa00faca-1249-4e59-99a7-ad778478b072.png)
 
 Kullanıcıdan alınan girdi doğrultusunda rehberde bir kişi bulunamazsa:
 
-
-
- Aradığınız krtiterlere uygun veri rehberde bulunamadı. Lütfen bir seçim yapınız.
- * Güncellemeyi sonlandırmak için    : (1)
- * Yeniden denemek için              : (2)
-
-
-Rehberde uygun veri bulunursa güncelleme işlemi gerçekleştirilir.
-
-
-
-Not: Rehber uygun kriterlere uygun birden fazla kişi bulunursa ilk bulunan silinmeli.
+![image](https://user-images.githubusercontent.com/94612715/155848189-87543807-b7e9-4bb6-b479-ff6d292221e3.png)
 
 
 (4) Rehberi Listelemek
 
-
-Tüm rehber aşağıdaki formatta console'a listelenir.
-
-
-
-  Telefon Rehberi
-  **********************************************
-  isim: {}
-  Soyisim: {}
-  Telefon Numarası: {}
-  - 
-  isim: {}
-  Soyisim: {}
-  Telefon Numarası: {}
-  .
-  .
+![image](https://user-images.githubusercontent.com/94612715/155848220-beb8ac11-6b26-4233-a191-ed545c3e23f2.png)
 
 
 (5) Rehberde Arama Yapmak
 
+![image](https://user-images.githubusercontent.com/94612715/155848230-fa87a203-f4e6-4200-bdff-5adbc2abf6ba.png)
 
- Arama yapmak istediğiniz tipi seçiniz.
- **********************************************
- 
- İsim veya soyisime göre arama yapmak için: (1)
- Telefon numarasına göre arama yapmak için: (2)
-
-
-Arama sonucuna göre bulunan veriler aşağıdaki formatta gösterilmeli.
-
-
-
- Arama Sonuçlarınız:
- **********************************************
- isim: {}
- Soyisim: {}
- Telefon Numarası: {}
- - 
- isim: {}
- Soyisim: {}
- Telefon Numarası: {}
- .
- .
-
-
-** Her bir feature ayrı class/method kullanarak yapılmalıdır. Mümkün olduğunca sorumlulukları parçalanmalı ve kod okunabilir olmalıdır
