@@ -2,7 +2,7 @@
 
 ## Telefon Rehberi Uygulaması
 
-Patika.dev'de bulunan .NETCore patikasında ki ödevlerden biri
+Patika.dev'de bulunan .NETCore eğitiminde ki ödevlerden biri
 --------------------------------------------------
 
  * Telefon Numarası Kaydet
