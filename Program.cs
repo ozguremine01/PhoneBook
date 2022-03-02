@@ -20,20 +20,20 @@ namespace PhoneBook
             switch (selected)
             {
                 case 1:
-                    telephoneNoProcess.InsertNo();
+                    telephoneNoProcess.Insert();
                     break;
                     
                 case 2:
-                    telephoneNoProcess.DeleteNo();
+                    telephoneNoProcess.Delete();
                     break;
                 case 3:
-                    telephoneNoProcess.UpdateNo();
+                    telephoneNoProcess.Update();
                     break;
                 case 4:
                     Sort.Sort();
                     break;
                 case 5:
-                    telephoneNoProcess.Searching();
+                    telephoneNoProcess.Search();
                     break;
                 default:
                     Console.WriteLine("Yanlış seçim yaptınız. Tekrar deneyin...");
