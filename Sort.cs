@@ -7,7 +7,7 @@ namespace PhoneBook
 {
     class Sort
     {
-        static public void SortNo()
+        static public void Sort()
         {
             Console.WriteLine(" (1)  Sıralama ölçütü: A-Z");
             Console.WriteLine(" (2)  Sıralama ölçütü: Z-A");
