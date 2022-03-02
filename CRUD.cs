@@ -25,7 +25,7 @@ namespace PhoneBook
             return selectedchoose;
         }
 
-        public void InsertNo()
+        public void Insert()
         {
             Console.WriteLine("Lütfen isim giriniz             :");
             string adi1 = Console.ReadLine().ToString();
@@ -39,7 +39,7 @@ namespace PhoneBook
             Result.WriteList();
         }
        
-        public void DeleteNo()
+        public void Delete()
         {
 
             Console.WriteLine("Lütfen numarasını silmek istediğiniz kişinin adını ya da soyadını giriniz:");
@@ -95,7 +95,7 @@ namespace PhoneBook
 
         }
 
-        public void UpdateNo()
+        public void Update()
         {
             
             Console.WriteLine("Lütfen numarasını güncellemek istediğiniz kişinin adını ya da soyadını giriniz:");
@@ -150,7 +150,7 @@ namespace PhoneBook
             }
         }
             
-        public void Searching()
+        public void Search()
         {
             Console.WriteLine(" Arama yapmak istediğiniz tipi seçiniz.");
             Console.WriteLine(" **********************************************");
