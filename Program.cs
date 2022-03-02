@@ -30,7 +30,7 @@ namespace PhoneBook
                     telephoneNoProcess.UpdateNo();
                     break;
                 case 4:
-                    Sort.SortNo();
+                    Sort.Sort();
                     break;
                 case 5:
                     telephoneNoProcess.Searching();
